@@ -23,9 +23,11 @@ rm -rf github_auth_temp
 
 or even easier, `bash` the sensibly titled `get_googles_github_auth_sample_app.bash` file.
 
-The script does a sparseCheckout of the files needed and since they are buried several folders down, it copies what's needed to a more convient directoy, removes the temporary duplicate, and as an added bonus, zips up the files so they are ready to be loaded up as an extension.
+The script does a sparseCheckout of the files needed and since they are buried several folders down, it copies what's needed to a more convient directory. Then, being a polite little script, it cleans up the now debris no longer needed. And finally, as an added bonus, it zips up the files so they are ready to be loaded up as an extension.
 
-* Download those files to wherever you are going to try out the extension.
+# Load the zip file by :
+
+* Download it to wherever you are going to try out the extension.
 * Fire up Chrome.
 * In Chrome, click the settings button. It looks like this : ![](img/chrome_settings_button.png), and is most likely in the upper right corner of the chrome browser. 
 * Scroll down a bit in the settings menu and hover over the `More tools` selector.
