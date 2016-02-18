@@ -27,11 +27,12 @@ The script does a sparseCheckout of the files needed and since they are buried s
 
 * Download those files to wherever you are going to try out the extension.
 * Fire up Chrome.
-* In Chrome, click the settings button, it looks like this ![](img/chrome_settings_button.png), and is the upper right corner most likely. 
-* Scroll down a bit and hover on the more tools selector, in the pop-up menu that appears, click extensions.
-* On the extensions page, you'll have to click the developer mode check-box.
-* If you don't see the developer mode check-box, enable it by opening a new tab and browsing to : [chrome://flags](chrome://flags).
-* Once that's all done, click the ![load extension button](img/load_extension_button.jpg), select the unziped folder you downloaded a second ago, and hit run.
+* In Chrome, click the settings button. It looks like this : ![](img/chrome_settings_button.png), and is most likely in the upper right corner of the chrome browser. 
+* Scroll down a bit in the settings menu and hover over the `More tools` selector.
+* In the pop-up menu that appears, click extensions.
+* On the extensions page, click the developer mode check-box.
+* NOTE - If you don't see the developer mode check-box, enable it by opening a new tab and browsing to : [chrome://flags](chrome://flags) and enabling "Experimental Extension APIs".
+* Once that's all done, click the ![load extension button](img/load_extension_button.jpg), select the unziped folder you downloaded a bit ago, and hit run.
 * That's it!
 
 You've just created, from source, a chrome extension that uses one of the more complicated authetication schemes and does so in a way they does not require a server or an app id.
